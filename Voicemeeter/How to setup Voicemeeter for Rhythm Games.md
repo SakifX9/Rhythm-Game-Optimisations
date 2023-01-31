@@ -1,5 +1,6 @@
 The goal? Basically add ASIO to any (mostly any) Audio device. Have an ASIO device already? Well great this guide will also show you how to be able to setup multiple audio streams so you can have low latency audio and still be able to hear other audio such as Discord or Stream alerts AND it shows you how to capture your ASIO audio into OBS which was my main motivation for writing this guide in the first place.
 
+This guide works best if you are using USB Audio like a USB Sound Card, Audio Interface, USB Headset or a DAC. If your audio device is plugged directly into your motherboard 3.5mm ports it may not be compatible, see [below](#configuring-voicemeeter-with-your-audio-device) to see if the option shows up
 
 Tested games(working): Sound Voltex コナステ, DJMax Respect V, Beatoraja.
 If you can test games with ASIO support please let me know so I can update this list
@@ -49,7 +50,7 @@ Disable your audio device on there as Voicemeeter will now be taking full contro
 On the Voicemeeter windwo press A1 on the top right corner and select KS: [Your Audio Device], my device is the Rode AI-1.
 (You can use ASIO if your device supports it but if your ASIO device has a microphone plugged in I suggest to use KS unless you are willing to setup your microphone with Voicemeeter as it will take full control of your Sound Card/Audio Interface), Realtek ASIO does not seem to work with this btw.
 
-Note: I you are using your headphones directly to the motherboard a KS option may not show up, if it doesn't I suggest you buy a cheap USB Sound Card from eBay or Amazon as they have the ability to use KS Audio.
+Note: If you are using your headphones directly to the motherboard a KS option may not show up, if it doesn't I suggest you buy a cheap USB Sound Card from eBay or Amazon as they have the ability to use KS Audio.
 ![image](https://user-images.githubusercontent.com/16516667/215750745-76004d90-a4d5-4565-85c4-b76af61be10f.png)
 
 Select A1 on both Voicemeeter VAIO and AUX and select B1 for Voicemeeter VAIO
