@@ -34,9 +34,11 @@ Run Voicemeeter Banana
 
 Open up your Windows Audio Panel
 
-Set Voicemeeter Input to the default audio device
+Set Voicemeeter Input to the default audio device and Voicemeeter AUX Input to default communication device
 
 ![image](https://user-images.githubusercontent.com/16516667/215765846-cc75ec05-3b64-425a-9db1-d848363951d6.png)
+![image](https://user-images.githubusercontent.com/16516667/215778527-a48b9860-b993-4bef-afac-4cfeca574eab.png)
+
 
 Disable your audio device on there as Voicemeeter will now be taking full control of your device and leaving it enabled can possibly cause conflicts.
 
