@@ -1,6 +1,6 @@
 The goal? Basically add ASIO to any (mostly any) Audio device. Have an ASIO device already? Well great this guide will also show you how to be able to setup multiple audio streams so you can have low latency audio and still be able to hear other audio such as Discord or Stream alerts AND it shows you how to capture your ASIO audio into OBS which was my main motivation for writing this guide in the first place.
 
-This guide works best if you are using USB Audio like a USB Sound Card, Audio Interface, USB Headset or a DAC. If your audio device is plugged directly into your motherboard 3.5mm ports it may not be compatible, see [below](#configuring-voicemeeter-with-your-audio-device) to see if the option shows up
+This guide works best if you are using USB Audio like a USB Sound Card, Audio Interface, USB Headset or a DAC. If your audio device is plugged directly into your motherboard 3.5mm ports it may not be compatible, see [below](#configuring-voicemeeter-with-your-audio-device) to see if the option shows up. If not I suggest buying a cheap USB Sound Card from eBay or Amazon
 
 Tested games(working): Sound Voltex コナステ, DJMax Respect V, Beatoraja.
 If you can test games with ASIO support please let me know so I can update this list
