@@ -11,7 +11,9 @@ Confirmed not working: Beatmania IIDX Infinitas(in ASIO with regstry hack and WA
 Table of Contents
 _________________
 
-* [Setting up Voicemeeter](#setting-up-voicemeeter) 
+The following guide assumes that you are installing Voicemeeter for the first time.
+
+* [Setting up Voicemeeter](#setting-up-voicemeeter) - Start here.
   * [Setting up your Audio device in the Windows Audio Panel](#setting-up-your-audio-device-in-the-windows-audio-panel)
   * [Configuring Voicemeeter with your Audio device](#configuring-voicemeeter-with-your-audio-device)
   * [Configuring Voicemeeter to work properly for games that require 44.1khz audio (Sound Voltex, Beatoraja etc)](#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc)
@@ -22,8 +24,6 @@ _________________
 
 
 # Setting up Voicemeeter
-
-The following guide assumes that you are installing Voicemeeter for the first time, if you have an existing installation you can scroll further down.
 
 Install Voicemeeter Banana from https://vb-audio.com/Voicemeeter/banana.htm
 
