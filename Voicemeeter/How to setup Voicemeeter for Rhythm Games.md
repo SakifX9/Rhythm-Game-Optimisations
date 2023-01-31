@@ -1,4 +1,4 @@
-The goal? Basically add ASIO to any (mostly any) Audio device. Have an ASIO device already? Well great this guide will also show you how to be able to setup multiple audio streams so you can have low latency audio and still be able to hear other audio such as Discord or Stream alerts AND how to capture your ASIO audio into OBS which was my main motivation for writing this guide in the first place.
+The goal? Basically add ASIO to any (mostly any) Audio device. Have an ASIO device already? Well great this guide will also show you how to be able to setup multiple audio streams so you can have low latency audio and still be able to hear other audio such as Discord or Stream alerts AND it shows you how to capture your ASIO audio into OBS which was my main motivation for writing this guide in the first place.
 
 
 Tested games(working): Sound Voltex コナステ, DJMax Respect V, Beatoraja.
