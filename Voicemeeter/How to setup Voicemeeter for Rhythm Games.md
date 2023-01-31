@@ -1,11 +1,10 @@
-The goal?
-This will allow you to play rhyhtm games at the lowest latency possible without sacrafcing other audio such as Discord calls, Stream alert audios etc.
-Usually when enabling WASAPI Exclusive or ASIO in any program it will take exclusive control of your device. This will let you have multiple audio streams while still being able to enable ASIO or WASAPI Exclusive on your rhythm games so you are able to stream them.
+The goal? Basically add ASIO to any (mostly any) Audio device. Have an ASIO device already? Well great this guide will also show you how to be able to setup multiple audio streams so you can have low latency audio and still be able to hear other audio such as Discord or Stream alerts AND how to capture your ASIO audio into OBS which was my main motivation for writing this guide in the first place.
+
 
 Tested games(working): Sound Voltex コナステ, DJMax Respect V, Beatoraja.
 If you can test games with ASIO support please let me know so I can update this list
 
-Confirmed not working: Beatmania IIDX Infinitas(in ASIO and WASAPI Exclusive modes)
+Confirmed not working: Beatmania IIDX Infinitas(in ASIO with regstry hack and WASAPI Exclusive modes)
 
 
 Table of Contents
