@@ -1,3 +1,7 @@
+The goal?
+This will allow you to play rhyhtm games at the lowest latency possible without sacrafcing other audio such as Discord calls, Stream alert audios etc.
+Usually when enabling WASAPI Exclusive or ASIO in any program it will take exclusive control of your device. This will let you have multiple audio streams while still being able to enable ASIO or WASAPI Exclusive on your rhythm games so you are able to stream them.
+
 The following guide assumes that you are installing Voicemeeter for the first time, if you have an existing installation you can scroll further down.
 
 Install Voicemeeter Banana from https://vb-audio.com/Voicemeeter/banana.htm
@@ -6,41 +10,34 @@ Run Voicemeeter Banana
 
 ![image](https://user-images.githubusercontent.com/16516667/208906942-f8f933b9-743f-43bf-9854-c2a1fdaa5133.png)
 
-If your audio interface or sound card supports ASIO then continue with the ASIO Guide, if you aren't sure search up your device name + ASIO driver on google and check if your device is compatible with ASIO as it makes things a lot easier 
-https://github.com/SakifX9/Rhythm-Game-Optimisations/edit/main/Voicemeeter/How%20to%20setup%20Voicemeeter%20for%20Rhythm%20Games.md#asio
 
-IF your device does not have support for ASIO then you can continue with then follow the WASAPI Guide
-https://github.com/SakifX9/Rhythm-Game-Optimisations/edit/main/Voicemeeter/How%20to%20setup%20Voicemeeter%20for%20Rhythm%20Games.md#wasapi-exclusive
+Open up your Windows Audio Panel
 
-# ASIO
-Press A1 and select the ASIO output for your device 
+Set Voicemeeter Input to the default audio device
 
-![image](https://user-images.githubusercontent.com/16516667/208910420-fd020973-fafc-4705-bdd5-f4af044fde44.png)
+![image](https://user-images.githubusercontent.com/16516667/215750358-0da6bf7f-c07f-442c-9b4c-2ff7e2d95499.png)
 
-Go to your Windows Audio settings and head to the Playback tab. Disable the device that you are using for ASIO in the Windows Audio Control Panel
+On the Voicemeeter windwo press A1 on the top right corner and select KS: [Your Audio Device], my device is the Rode AI-1 (You can use ASIO if your device supports it but if your ASIO device has a microphone plugged in I suggest to use KS unless you are willing to setup your microphone with Voicemeeter as it will take full control of your Sound Card/Audio Interface), Realtek ASIO does not seem to work with this btw.
+![image](https://user-images.githubusercontent.com/16516667/215750745-76004d90-a4d5-4565-85c4-b76af61be10f.png)
 
-![image](https://user-images.githubusercontent.com/16516667/209463005-207c2119-be97-488b-86ec-b008805f0ae6.png)
+Select A1 on both Voicemeeter VAIO and AUX and select B1 for Voicemeeter VAIO
 
-If you are using a mic with your audio interface you may see Hardware Input 1 be occupied by "A1 ASIO Input"
+![image](https://user-images.githubusercontent.com/16516667/215753716-d527c96c-c3a6-4f08-b076-14847ae28cc9.png)
 
-![image](https://user-images.githubusercontent.com/16516667/209463023-3988b429-9946-49c5-9e2f-be719b2b7a9c.png)
+Go back to your Windows Audio Panel and disable your audio device on there as Voicemeeter will now be taking full control of your device and leaving it enabled can possibly cause conflicts.
 
-If that is the case also disable your device in the Recording tab in the Windows Audio Control Panel and set VoiceMeter Output as your default recording device
+![image](https://user-images.githubusercontent.com/16516667/215751486-c046c22c-8557-4e6b-8bab-0ab4a337898d.png)
 
-![image](https://user-images.githubusercontent.com/16516667/209463063-4e1705b5-c909-45d5-b634-fed5e051bd29.png)
+Go to System Settings/ Options on Voicemeeter
 
+![image](https://user-images.githubusercontent.com/16516667/215751873-88724d57-c9cb-44a6-a9fd-55446992cc0b.png)
 
+Change the highlighted values to 256, if you have a stronger CPU you can go much lower but I suggest 256 buffer size so your audio so you have a more stable audio stream to Voicemeeter
 
-Press Menu > System Settings 
-
-Set Buffering ASIO to 128 samples
-
-![image](https://user-images.githubusercontent.com/16516667/208909916-f916a9af-b008-4657-a4b4-5872d15a79de.png)
+![image](https://user-images.githubusercontent.com/16516667/215752509-349268a9-26de-4568-8dd8-d3b514749b81.png)
 
 
 
-
-# WASAPI Exclusive 
 
 
 
