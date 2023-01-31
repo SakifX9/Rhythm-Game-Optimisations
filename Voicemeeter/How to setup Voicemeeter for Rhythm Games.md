@@ -19,7 +19,8 @@ Set Voicemeeter Input to the default audio device
 
 ![image](https://user-images.githubusercontent.com/16516667/215750358-0da6bf7f-c07f-442c-9b4c-2ff7e2d95499.png)
 
-On the Voicemeeter windwo press A1 on the top right corner and select KS: [Your Audio Device], my device is the Rode AI-1 (You can use ASIO if your device supports it but if your ASIO device has a microphone plugged in I suggest to use KS unless you are willing to setup your microphone with Voicemeeter as it will take full control of your Sound Card/Audio Interface), Realtek ASIO does not seem to work with this btw.
+On the Voicemeeter windwo press A1 on the top right corner and select KS: [Your Audio Device], my device is the Rode AI-1.
+(You can use ASIO if your device supports it but if your ASIO device has a microphone plugged in I suggest to use KS unless you are willing to setup your microphone with Voicemeeter as it will take full control of your Sound Card/Audio Interface), Realtek ASIO does not seem to work with this btw.
 
 Note: I you are using your headphones directly to the motherboard a KS option may not show up, if it doesn't I suggest you buy a cheap USB Sound Card from eBay or Amazon as they have the ability to use KS Audio.
 ![image](https://user-images.githubusercontent.com/16516667/215750745-76004d90-a4d5-4565-85c4-b76af61be10f.png)
