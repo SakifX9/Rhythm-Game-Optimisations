@@ -36,6 +36,7 @@ Run Voicemeeter Banana
 Open up your Windows Audio Panel
 
 Set Voicemeeter Input to the default audio device and Voicemeeter AUX Input to default communication device
+Set things like music audio, discord audio, OBS alerts and your web browser to Voicemeeter AUX Input so that you are able to hear them if you play a WASAPI Exclusive game.
 
 ![image](https://user-images.githubusercontent.com/16516667/215765846-cc75ec05-3b64-425a-9db1-d848363951d6.png)
 ![image](https://user-images.githubusercontent.com/16516667/215778527-a48b9860-b993-4bef-afac-4cfeca574eab.png)
