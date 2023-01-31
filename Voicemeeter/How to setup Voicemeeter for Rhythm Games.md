@@ -2,6 +2,14 @@ The goal?
 This will allow you to play rhyhtm games at the lowest latency possible without sacrafcing other audio such as Discord calls, Stream alert audios etc.
 Usually when enabling WASAPI Exclusive or ASIO in any program it will take exclusive control of your device. This will let you have multiple audio streams while still being able to enable ASIO or WASAPI Exclusive on your rhythm games so you are able to stream them.
 
+Table of Contents
+_________________
+
+* [Setting up Voicemeeter](#setting-up-voicemeeter)
+* [Setting up Voicemeeter with a rhythm game](#setting-up-voicemeeter-with-a-rhythm-game)
+* [Setting up Voicemeeter with OBS](#setting-up-voicemeeter-with-obs) 
+
+
 # Setting up Voicemeeter
 
 The following guide assumes that you are installing Voicemeeter for the first time, if you have an existing installation you can scroll further down.
