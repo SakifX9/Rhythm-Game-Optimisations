@@ -6,6 +6,7 @@ _____________________
 * [NVIDIA Control Panel Optimisations](#nvidia-control-panel-optimisations) 
 * AMD Control Panel Optimisations (WIP)
 * [For portrait mode users or users playing the game on a 2nd monitor that are using NVIDIA or pre-RDNA AMD cards](#for-portrait-mode-users-or-users-playing-the-game-on-a-2nd-monitor-that-are-using-nvidia-or-pre-rdna-amd-cards)
+* [Make Sound Voltex run at HIGH CPU Priotiy by default](#make-sound-voltex-run-at-high-cpu-priotiy-by-default)
 
 # The settings to be using on Sound Voltex 
 Copy the following settings on your Sound Voltex settings window before you follow anything else on this guide.
@@ -51,6 +52,23 @@ NOTE: Enabling this option will not allow you to take screenshots with print scr
 IF you really want to  have this option enabled but still be able to take screenshots from your PC you can use OBS to project the game window to it's own window and screenshot that projected window instead. 
 
 
+# Make Sound Voltex run at HIGH CPU Priotiy by default 
+This option will give SDVX Higher CPU priority than other applications which will help reduce stutters that are related to CPU issues. 
 
+Open Notepad and copy down the following into your Notepad window
+```
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sv6c.EXE\PerfOptions] 
+"CpuPriorityClass"=dword:00000003
+```
+Now press File > Save as
+
+Choose the desktop as the locaation so you can find it easily 
+Name the file SDVX.reg and make sure "Save as type:" is set to "All files (*.*)
+![image](https://user-images.githubusercontent.com/16516667/216713991-4855c1d5-a9ab-46e4-9260-d1c3b2a9a26c.png)
+
+Now run SDVX.reg and press Yes to the prompt that appears. 
+
+Sound Voltex コナステ will always have high CPU priority from now on.
 
 
