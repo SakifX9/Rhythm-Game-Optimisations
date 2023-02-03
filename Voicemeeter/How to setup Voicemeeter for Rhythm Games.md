@@ -21,6 +21,7 @@ The following guide assumes that you are installing Voicemeeter for the first ti
   * [Configuring a rhythm game with ASIO](#configuring-a-rhythm-game-with-asio)
   * [Configuring a rhythm with WASAPI Exclusive](#configuring-a-rhythm-with-wasapi-exclusive)
 * [Configuring Voicemeeter with OBS](#configuring-voicemeeter-with-obs) 
+  * [Configuring OBS to work with 44.1khz audio](#configuring-obs-to-work-with-441khz-audio)
 
 
 # Setting up Voicemeeter
@@ -111,6 +112,12 @@ Call it Rhythm Game Audio, press ok and select Voicemeeter Output
 
 Make sure you have this source in every scene which you use to stream rhythm games. 
 
+## Configuring OBS to work with 44.1khz audio
+
+If you followed the earlier step for configuring Voicemeeter to work with 44.1khz audio 
+
+MAKE SURE you change the sample rate in OBS to 44.1khz as well or else it can make your audio sound bad.
+![image](https://user-images.githubusercontent.com/16516667/216699622-99f787ba-3117-4bb4-9128-47bc6ac808bb.png)
 
 
 
