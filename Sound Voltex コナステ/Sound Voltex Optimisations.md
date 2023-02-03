@@ -3,8 +3,8 @@ The following guide will show you how to optimise your PC to reduce stutter and 
 Table of Contents
 _____________________
 * [The settings to be using on Sound Voltex](#the-settings-to-be-using-on-sound-voltex) - DO THIS BEFORE DOING ANYTHING ELSE 
-* [NVIDIA Control Panel Optimisations](#nvidia-control-panel-optimisations) 
-* AMD Control Panel Optimisations (WIP)
+* [NVIDIA Control Panel Optimisations](#nvidia-control-panel-optimisations) FOR NVIDIA GPU ONLY
+* AMD Control Panel Optimisations (WIP) FOR AMD GPU ONLY
 * [For portrait mode users or users playing the game on a 2nd monitor that are using NVIDIA or pre-RDNA AMD cards](#for-portrait-mode-users-or-users-playing-the-game-on-a-2nd-monitor-that-are-using-nvidia-or-pre-rdna-amd-cards)
 * [Make Sound Voltex run at HIGH CPU Priotiy by default](#make-sound-voltex-run-at-high-cpu-priotiy-by-default)
 
