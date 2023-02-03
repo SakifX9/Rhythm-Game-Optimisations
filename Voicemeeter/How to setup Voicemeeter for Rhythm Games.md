@@ -56,10 +56,14 @@ Disable your audio device on the Windows Audio Panel as Voicemeeter will now be 
 ## Configuring Voicemeeter with your Audio device
 
 On the Voicemeeter window press A1 on the top right corner and select KS: [Your Audio Device], my device is the Rode AI-1.
-(You can use ASIO if your device supports it but if your ASIO device has a microphone plugged in I suggest to use KS unless you are willing to setup your microphone with Voicemeeter as it will take full control of your Sound Card/Audio Interface for BOTH Audio and Microphone where as KS just takes exclusive control over Audio), Realtek ASIO does not seem to work with this btw.
 
-Note: If you are using your headphones directly to the motherboard a KS option may not show up. If it doesn't show up, I suggest you buy a cheap USB Sound Card from eBay or Amazon as they have the ability to use KS Audio.
 ![image](https://user-images.githubusercontent.com/16516667/215750745-76004d90-a4d5-4565-85c4-b76af61be10f.png)
+
+>**You can your device ASIO output if it has support for it, but if you have a microphone plugged into the audio interface/sound card you are using you will also have to set that up through Voicemeeter, which requires a bit more effort than just setting your Hardware Input to B2 and will not be covered in this guide as it is not relevant to the goal of this guide.**
+**KS and ASIO are both low latency interfaces so just pick KS as it only takes exclusive control of your audio device and leaves your microphone alone.**
+
+>**Note**: If you are using your headphones directly to the motherboard a KS option may not show up. If it doesn't show up, I suggest you buy a cheap USB Sound Card from eBay or Amazon as they have the ability to use KS Audio.
+
 
 Select A1 on both Voicemeeter VAIO and AUX and select B1 for Voicemeeter VAIO
 
