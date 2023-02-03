@@ -92,7 +92,7 @@ Download the [VB Audio Devices checker](https://download.vb-audio.com/Download_C
 
 # Configuring Voicemeeter with a rhythm game
 
-If the game has ASIO, ALWAYS pick the ASIO option, if not pick the WASAPI Exclusive option option
+If the game has ASIO, ALWAYS pick the ASIO option, if not pick the WASAPI Exclusive option
 
 ## Configuring a rhythm game with ASIO 
 
@@ -100,7 +100,9 @@ If the game has ASIO, ALWAYS pick the ASIO option, if not pick the WASAPI Exclus
 
 
 ## Configuring a rhythm with WASAPI Exclusive 
-Make sure you are ticking the WASAPI Exclusive option, it should use your default audio device in Windows which we set earlier on in the guide, but if it doesnt, select "Voicemeeter Output".
+Make sure you are ticking the WASAPI Exclusive option, it should use your default audio device in Windows which we set earlier on in the guide, but if it doesnt, select "Voicemeeter Input".
+
+>Don't forget to set the applications you want to be able to hear, such as Discord, OBS(for stream alerts) etc to "Voicemeeter AUX Input"
 
 ![image](https://user-images.githubusercontent.com/16516667/215757434-e7b5ee78-e015-4026-97fe-f60bc6c225ef.png)
 
