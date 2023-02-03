@@ -47,7 +47,7 @@ Use the Windows Volume Mixer to move your Communication(Discord, Teamspeak etc),
 ![image](https://user-images.githubusercontent.com/16516667/215784867-20dab29b-d26c-4568-8d14-3f3475e71949.png)
 
 
-Disable your audio device on the Windows Audio Panell as Voicemeeter will now be taking full control of your device and leaving it enabled can possibly cause conflicts.
+Disable your audio device on the Windows Audio Panel as Voicemeeter will now be taking full control of your device and leaving it enabled can possibly cause conflicts.
 
 ![image](https://user-images.githubusercontent.com/16516667/215751486-c046c22c-8557-4e6b-8bab-0ab4a337898d.png)
 
