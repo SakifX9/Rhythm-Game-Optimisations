@@ -7,7 +7,7 @@ This guide works best if you are using USB Audio like a USB Sound Card, Audio In
 Tested games(working): Sound Voltex コナステ(44.1khz configuration required), Beatoraja(44.1khz configuration required),  DJMax Respect V.
 If you can test games with ASIO support please let me know so I can update this list
 
-Confirmed not working: Beatmania IIDX Infinitas(ASIO with regstry hack and WASAPI Exclusive modes)
+Confirmed not working: Beatmania IIDX Infinitas(ASIO with regstry hack and WASAPI Exclusive modes don't work but if you can get it to work please tell me!)
 
 
 Table of Contents
