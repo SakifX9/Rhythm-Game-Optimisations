@@ -67,9 +67,9 @@ Go to System Settings/ Options on Voicemeeter
 
 ![image](https://user-images.githubusercontent.com/16516667/215751873-88724d57-c9cb-44a6-a9fd-55446992cc0b.png)
 
-Change the highlighted values to 256, if you have a stronger CPU you can go much lower but I suggest 256 buffer size so your audio so you have a more stable audio stream to Voicemeeter
+Change the highlighted values to 256, if you have a stronger CPU you can go much lower but I suggest 256 buffer size so your audio so you have a more stable audio stream to Voicemeeter and change Virtual ASIO Type to Int32LSB.
 
-![image](https://user-images.githubusercontent.com/16516667/215752509-349268a9-26de-4568-8dd8-d3b514749b81.png)
+![image](https://user-images.githubusercontent.com/16516667/216692924-cbeef2b4-6114-47e7-b746-3abef25c0c00.png)
 
 
 ## Configuring Voicemeeter to work properly for games that require 44.1khz audio (Sound Voltex, Beatoraja etc)
