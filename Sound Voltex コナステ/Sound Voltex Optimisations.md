@@ -19,7 +19,7 @@ Open the NVIDIA Control Panel, head to Manage 3D settings then program settings 
 Press browse and add sv6c.exe to the programs
 ![image](https://user-images.githubusercontent.com/16516667/216705003-1eed657b-b3a5-4572-8ab1-28ab8affbcc6.png)
 
-Change the following settings to the settings for sv6c.exe to match with what I have below.
+Change the following settings for sv6c.exe to match with what I have below.
 
 ![image](https://user-images.githubusercontent.com/16516667/216705211-0d72245e-77e4-43b3-90ce-52533b455787.png)
 
