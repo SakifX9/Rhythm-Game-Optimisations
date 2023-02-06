@@ -1,5 +1,7 @@
 The following guide will show you how to optimise your PC to reduce stutter and latency in Sound Voltex コナステ
 
+> Important NOTE: DO NOT ALT TAB DURING THE FPS CHECK IT WILL INCREASE THE CHANCES OF YOUR GAME NOT RUNNING SMOOTH OR AT 120 FPS, IF YOU NEED TO ALT TAB, DO IT AFTER YOU FINISH LOGGING IN TO THE GAME.
+
 Table of Contents
 _____________________
 * [The settings to be using on Sound Voltex](#the-settings-to-be-using-on-sound-voltex) - DO THIS BEFORE DOING ANYTHING ELSE 
