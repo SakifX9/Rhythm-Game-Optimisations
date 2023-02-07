@@ -56,6 +56,7 @@ IF you really want to  have this option enabled but still be able to take screen
 
 # Make Sound Voltex run at HIGH CPU Priotiy by default 
 This option will give SDVX Higher CPU priority than other applications which will help reduce stutters that are related to CPU issues. 
+>This is useful if you need to have programs running in the background or want to stream the game and get stutters due to that reason
 
 Open Notepad and copy down the following into your Notepad window
 ```
