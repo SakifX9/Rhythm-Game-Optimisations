@@ -81,9 +81,9 @@ Change the highlighted values to 256, if you have a stronger CPU you can go much
 
 ## Configuring Voicemeeter to work properly for games that require 44.1khz audio (Sound Voltex, Beatoraja etc)
 
-Change the Sample rate to 44100hz in Voicemeeter System settings 
+Change the Sample rate and Preferred main sample rate to 44100hz in Voicemeeter System settings. If you chose to use your device ASIO option instead of KS, change the sample rate in your ASIO driver settings if applicable. 
 
-![image](https://user-images.githubusercontent.com/16516667/215766822-83e2a512-53de-49ec-8bc4-3ecae684878f.png)
+![image](https://user-images.githubusercontent.com/16516667/218286482-22e51de8-1569-4c0b-a867-fd28d72210b5.png)
 
 Download the [VB Audio Devices checker](https://download.vb-audio.com/Download_CABLE/VBDeviceCheck.zip), open it and press devices. Then press the "Set All devices format in 44.1khz" option
 
