@@ -67,7 +67,7 @@ Windows Registry Editor Version 5.00
 Now press File > Save as
 
 Choose the desktop as the locaation so you can find it easily 
-Name the file SDVX.reg and make sure "Save as type:" is set to "All files (*.*)
+Name the file SDVX.reg and make sure "Save as type:" is set to "All files (*.*)"
 ![image](https://user-images.githubusercontent.com/16516667/216713991-4855c1d5-a9ab-46e4-9260-d1c3b2a9a26c.png)
 
 Now run SDVX.reg and press Yes to the prompt that appears. 
