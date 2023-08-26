@@ -74,4 +74,10 @@ Now run SDVX.reg and press Yes to the prompt that appears.
 
 Sound Voltex コナステ will always have high CPU priority from now on.
 
+MAKE SURE GAME MODE IS TURNED OFF IN THE WINDOWS SETTINGS OTHERWISE WINDOWS WILL SET THE GAME'S CPU PRIORITY TO NORMAL EVERY TIME THE GAME WINDOW IS IN FOCUS
+![image](https://github.com/SakifX9/Rhythm-Game-Optimisations/assets/16516667/a1c0fc3a-72fc-4fdb-8401-c3f6bf420848)
+
+
+
+
 
