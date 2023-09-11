@@ -2,7 +2,7 @@ This guide is for the people that have low latency audio devices such as DACs,Au
 
 If you are using this guide soley to just capture ASIO/WASAPI Exclusive audio, I suggest using a headphone jack splitter instead, way less hassle and strain on your CPU. 
 
-Tested games(working): Sound Voltex コナステ([44.1khz configuration required](#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc)), Beatoraja((44.1khz configuration required)[#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc]),  DJMax Respect V, Beatmania IIDX Infinitas ((ASIO registry hack)[https://github.com/darekasan/inf_launch_ext/blob/master/asio.md] and (44.1khz configuration required)[#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc])
+Tested games(working): Sound Voltex コナステ([44.1khz configuration required](#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc)), Beatoraja([44.1khz configuration required](#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc)),  DJMax Respect V, Beatmania IIDX Infinitas ([ASIO registry hack](https://github.com/darekasan/inf_launch_ext/blob/master/asio.md] and [44.1khz configuration required](#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc))
 If you can test games with ASIO support please let me know so I can update this list
 
 Confirmed not working: Beatmania IIDX Infinitas(ASIO with regstry hack and WASAPI Exclusive modes don't work but if you can get it to work please tell me!)
