@@ -1,10 +1,10 @@
-If you are using this guide soley to be able to capture ASIO/WASAPI Exclusive audio in programs such as OBS, I suggest using a headphone jack splitter plugged into your headphone jack and plugging a 3.5mm to 3.5mm cable into your motherboard microphone jack, way less hassle and strain on your CPU. 
+**_If you are using this guide soley to be able to capture ASIO/WASAPI Exclusive audio in programs such as OBS_, then I suggest using a headphone jack splitter plugged into your headphone jack and plugging a 3.5mm to 3.5mm cable into your motherboard microphone jack, way less hassle and strain on your CPU.** 
 
-This guide is for the people that have low latency audio devices such as DACs,Audio Interfaces and Sound Cards that have existing ASIO drivers and want to be able to play games with ASIO/WASAPI Exclusive mode while being able to hear other applications. You do not have to have the ASIO drivers for your device installed, it just ensures better compatibility if they do exist.
+This guide is for the people that have low latency audio devices such as DACs, Audio Interfaces and Sound Cards that have existing ASIO drivers and want to be able to play games with ASIO/WASAPI Exclusive mode while being able to hear other applications. You do not have to have the ASIO drivers for your device installed, it just ensures better compatibility if they do exist.
 
-USB Audio devices that do not have ASIO drivers may be able to work but they can be inconsitent with latency. I have tried a few Amazon and eBay USB Sound Cards, some worked fine while others had a bit of a noticable delay.
+***USB Audio devices that do not have ASIO drivers may be able to work but they can be inconsitent with latency. I have tried a few Amazon and eBay USB Sound Cards, some worked fine while others had a bit of a noticable delay.***
 
-You will also need a processor that has at least 8 threads or else VoiceMeeter can hang quite often if the CPU doesn't have enough resources to distribute to it.
+**You will also need a processor that has at least 8 threads or else VoiceMeeter can hang quite often if the CPU doesn't have enough resources to distribute to it.**
 
 Tested games(working): Sound Voltex コナステ([44.1khz configuration required](#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc)), Beatoraja([44.1khz configuration required](#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc)),  DJMax Respect V, Beatmania IIDX Infinitas ([ASIO registry hack](https://github.com/darekasan/inf_launch_ext/blob/master/asio.md) and [44.1khz configuration required](#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc))
 If you can test games with ASIO support please let me know so I can update this list
