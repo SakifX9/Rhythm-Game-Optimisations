@@ -1,10 +1,8 @@
-The goal? Basically add ASIO to any (mostly any) Audio device. Have an ASIO device already? Voicemeeter will allow you to utilise ASIO and be able to use it with multiple applications and allow you to also capture the audio of an application using ASIO which was my main motivation for setting it all up and writing this guide
+This guide is for the people that have low latency audio devices such as DACs,Audio Interfaces and Sound Cards that have existing ASIO drivers and want to be able to play games with ASIO/WASAPI Exclusive mode while being able to hear other applications. 
 
-Why Voicemeeter and not something like FlexASIO or ASIO4ALL? Because you would have to use those in a shared mode to be able to hear any other audio from your device which then adds latency totally defeating the point of ASIO. Voicemeeter gives you access to multiple audio sources and takes exclusive control of your device so you can have low latency audio when playing games that use  ASIO or WASAPI Exclusive and still be able other sounds such as Stream Alerts, people you are talking to on Discord etc. 
+If you are using this guide soley to just capture ASIO/WASAPI Exclusive audio, I suggest using a headphone jack splitter instead, way less hassle and strain on your CPU. 
 
-This guide works best if you are using USB Audio like a USB Sound Card, Audio Interface, USB Headset or a DAC. If your audio device is plugged directly into your motherboard 3.5mm ports it may not be compatible, see [below](#configuring-voicemeeter-with-your-audio-device) to see if the option shows up. If not **I suggest buying a cheap USB Sound Card from eBay or Amazon**
-
-Tested games(working): Sound Voltex コナステ(44.1khz configuration required), Beatoraja(44.1khz configuration required),  DJMax Respect V.
+Tested games(working): Sound Voltex コナステ([44.1khz configuration required](#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc)), Beatoraja((44.1khz configuration required)[#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc]),  DJMax Respect V, Beatmania IIDX Infinitas ((ASIO registry hack)[https://github.com/darekasan/inf_launch_ext/blob/master/asio.md] and (44.1khz configuration required)[#configuring-voicemeeter-to-work-properly-for-games-that-require-441khz-audio-sound-voltex-beatoraja-etc])
 If you can test games with ASIO support please let me know so I can update this list
 
 Confirmed not working: Beatmania IIDX Infinitas(ASIO with regstry hack and WASAPI Exclusive modes don't work but if you can get it to work please tell me!)
