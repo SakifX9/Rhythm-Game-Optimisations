@@ -1,4 +1,4 @@
-This guide is for the people that have low latency audio devices such as DACs,Audio Interfaces and Sound Cards that have existing ASIO drivers and want to be able to play games with ASIO/WASAPI Exclusive mode while being able to hear other applications. 
+This guide is for the people that have low latency audio devices such as DACs,Audio Interfaces and Sound Cards that have existing ASIO drivers and want to be able to play games with ASIO/WASAPI Exclusive mode while being able to hear other applications. USB Audio devices that do not have ASIO drivers may be able to work but they can be inconsitent with latency, I have tried a few Amazon and eBay USB Sound Cards, some worked fine while others had a bit of a noticable delay. 
 
 If you are using this guide soley to just capture ASIO/WASAPI Exclusive audio, I suggest using a headphone jack splitter instead, way less hassle and strain on your CPU. 
 
