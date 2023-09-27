@@ -2,7 +2,7 @@
 
 This guide is for the people that have low latency audio devices such as DACs, Audio Interfaces and Sound Cards that have existing ASIO drivers and want to be able to play games with ASIO/WASAPI Exclusive mode while being able to hear other applications. You do not have to have the ASIO drivers for your device installed, it just ensures better compatibility if they do exist.
 
-***USB Audio devices that do not have ASIO drivers may be able to work but they can be inconsitent with latency. I have tried a few Amazon and eBay USB Sound Cards, some worked fine while others had a bit of a noticable delay.***
+***USB Audio devices that do not have ASIO drivers may be able to work but they can be inconsitent with latency. I have tried a few Amazon and eBay USB Sound Cards, some worked fine while others had a bit of a noticable delay. Most USB gaming headsets I tried worked fine***
 
 **You will also need a processor that has at least 8 threads or else VoiceMeeter can hang quite often if the CPU doesn't have enough resources to distribute to it.**
 
@@ -75,7 +75,7 @@ Go to System Settings/ Options on Voicemeeter
 
 Change the highlighted values to 256, if you have a stronger CPU you can go much lower but I suggest 256 buffer size so your audio so you have a more stable audio stream to Voicemeeter and change Virtual ASIO Type to Int32LSB.
 
-![image](https://user-images.githubusercontent.com/16516667/216692924-cbeef2b4-6114-47e7-b746-3abef25c0c00.png)
+![image](https://github.com/SakifX9/Rhythm-Game-Optimisations/assets/16516667/aceea6df-16c0-4142-b840-191eb0ae552b)
 
 
 ## Configuring Voicemeeter to work properly for games that require 44.1khz audio (Sound Voltex, Beatoraja etc)
