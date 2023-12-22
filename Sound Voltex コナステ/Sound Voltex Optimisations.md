@@ -36,8 +36,9 @@ Why didn't I enable Low Latency Mode on the control panel for Sound Voltex? It's
 
 
 # AMD Control Panel Optimisations 
+Even after changing the settings on the AMD Control Panel you may still face occasional stutters on charts that use Live2D backgrounds, I sugggest making a custom tuning profile making the game use the highest stock clock speed for your GPU and using MorePowerTool to disable DS_GFXCLK so that the drivers actually respect the setting that has been set for your game.
+![image](https://github.com/SakifX9/Rhythm-Game-Optimisations/assets/16516667/33d367e8-175e-46f4-8b1d-bde3855f9659)
 
-![image](https://github.com/SakifX9/Rhythm-Game-Optimisations/assets/16516667/40e07853-3dde-412f-b118-a5b63c6c002a)
 
 
 
