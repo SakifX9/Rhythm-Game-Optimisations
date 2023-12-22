@@ -37,7 +37,8 @@ Why didn't I enable Low Latency Mode on the control panel for Sound Voltex? It's
 
 # AMD Control Panel Optimisations 
 
-WIP, I do not have an AMD card, but if you have an AMD card, preferably an RDNA card please [hit me up](https://github.com/SakifX9/Rhythm-Game-Optimisations/discussions/categories/general)
+![image](https://github.com/SakifX9/Rhythm-Game-Optimisations/assets/16516667/40e07853-3dde-412f-b118-a5b63c6c002a)
+
 
 
 # For portrait mode users or users playing the game on a 2nd monitor that are using NVIDIA or pre-RDNA AMD cards
