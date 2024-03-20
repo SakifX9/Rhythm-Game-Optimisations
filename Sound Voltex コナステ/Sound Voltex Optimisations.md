@@ -6,9 +6,9 @@ Table of Contents
 _____________________
 * [The settings to be using on Sound Voltex](#the-settings-to-be-using-on-sound-voltex) - DO THIS BEFORE DOING ANYTHING ELSE 
 * [NVIDIA Control Panel Optimisations](#nvidia-control-panel-optimisations) FOR NVIDIA GPU ONLY
-* AMD Control Panel Optimisations (WIP) FOR AMD GPU ONLY
+* [AMD Control Panel Optimisations](#amd-control-panel-optimisations) FOR AMD GPU ONLY
 * [For portrait mode users or users playing the game on a 2nd monitor that are using NVIDIA or pre-RDNA AMD cards](#for-portrait-mode-users-or-users-playing-the-game-on-a-2nd-monitor-that-are-using-nvidia-or-pre-rdna-amd-cards)
-* [Make Sound Voltex run at HIGH CPU Priotiy by default](#make-sound-voltex-run-at-high-cpu-priotiy-by-default)
+* [Make Sound Voltex run at HIGH CPU Priotiy by default](#make-sound-voltex-run-at-high-cpu-priotiy-by-default) Optional
 
 # The settings to be using on Sound Voltex 
 Copy the following settings on your Sound Voltex settings window before you follow anything else on this guide.
@@ -57,6 +57,9 @@ IF you really want to  have this option enabled but still be able to take screen
 
 
 # Make Sound Voltex run at HIGH CPU Priotiy by default 
+
+OPTIONAL
+
 This option will give SDVX Higher CPU priority than other applications which will help reduce stutters that are related to CPU issues. 
 >This is useful if you need to have programs running in the background or want to stream the game and get stutters due to that reason
 
