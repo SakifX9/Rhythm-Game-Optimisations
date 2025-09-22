@@ -42,12 +42,12 @@ Even after changing the settings on the AMD Control Panel you may still face occ
 
 
 
-# For portrait mode users or users playing the game on a 2nd monitor that are using NVIDIA or pre-RDNA AMD cards
+# For portrait mode users or users playing the game on a 2nd monitor
 
 Find your sv6c.exe, right click it, press properties. On the properties window click on the compatiblity tab and press "Disable full-screen optimisations"
 ![image](https://user-images.githubusercontent.com/16516667/216706432-e833acaa-fc13-41d5-83d4-21f2142afd22.png)
 
-What this does is let you run your game in Legacy Flip giving your game exclusive control of the monitor it is on because NVIDIA and older AMD cards do not support Independent Flip on portrait resolutions or 2nd monitors and will make the game run on Composed Flip. Newer AMD cards were able to access the appropriate flip model with Fullscreen Optimisations turned on but AMD has removed it in a recent driver update so I suggest playing the game on horizontal mode in windows but set vertical in the game settings for Radeon 5xxx GPU and newer. 
+What this does is let you run your game in Legacy Flip giving your game exclusive control of the monitor it is on because NVIDIA and older AMD cards do not support Independent Flip on portrait resolutions or 2nd monitors and will make the game run on Composed Flip.
 
 If you want more information how flip model works you can view this [diagram](https://wiki.special-k.info/Presentation_Model#bitblt-d3d11)
 
