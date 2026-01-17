@@ -42,8 +42,6 @@ Even after changing the settings on the AMD Control Panel you may still face occ
 
 
 
-
-
 # For portrait mode users or users playing the game on a 2nd monitor
 
 Find your sv6c.exe, right click it, press properties. On the properties window click on the compatiblity tab and press "Disable full-screen optimisations"
@@ -57,6 +55,10 @@ If you want more information how flip model works you can view this [diagram](ht
 NOTE: Enabling this option will not allow you to take screenshots with print screen anymore. It's up to you whether you want to sacrafice latency for being able to use that button.........alternatively you can take out your phone and take scores pics as if you were at the arcade.
 IF you really want to  have this option enabled but still be able to take screenshots from your PC you can use OBS to project the game window to it's own window and screenshot that projected window instead. 
 
+> [!WARNING]
+> **WARNING FOR AMD USERS**
+> 
+> If your game is hanging on an empty screen, then make sure your AMD Drivers Is at least on 25.Q4 PRO Drivers or 25.11.1 Adrenalin Drivers! 
 
 # Make Sound Voltex run at HIGH CPU Priotiy by default 
 
