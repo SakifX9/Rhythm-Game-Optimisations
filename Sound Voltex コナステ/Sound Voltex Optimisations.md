@@ -7,7 +7,7 @@ _____________________
 * [The settings to be using on Sound Voltex](#the-settings-to-be-using-on-sound-voltex) - DO THIS BEFORE DOING ANYTHING ELSE 
 * [NVIDIA Control Panel Optimisations](#nvidia-control-panel-optimisations) FOR NVIDIA GPU ONLY
 * [AMD Control Panel Optimisations](#amd-control-panel-optimisations) FOR AMD GPU ONLY
-* [For portrait mode users or users playing the game on a 2nd monitor](#for-portrait-mode-users-or-users-playing-the-game-on-a-2nd-monitor-that-are-using-nvidia-or-pre-rdna-amd-cards)
+* [For portrait mode users or users playing the game on a 2nd monitor](#for-portrait-mode-users-or-users-playing-the-game-on-a-2nd-monitor)
 * [Make Sound Voltex run at HIGH CPU Priotiy by default](#make-sound-voltex-run-at-high-cpu-priotiy-by-default) Optional
 
 # The settings to be using on Sound Voltex 
@@ -37,7 +37,9 @@ Why didn't I enable Low Latency Mode on the control panel for Sound Voltex? It's
 
 # AMD Control Panel Optimisations 
 Even after changing the settings on the AMD Control Panel you may still face occasional stutters on charts that use Live2D backgrounds, I sugggest making a custom tuning profile making the game use the highest stock clock speed for your GPU and using MorePowerTool to disable DS_GFXCLK so that the drivers actually respect the setting that has been set for your game.
-<img width="1074" height="1438" alt="image" src="https://github.com/user-attachments/assets/bfe1c358-7094-4010-a15c-857ddefb9403" />
+
+<img width="1437" height="1443" alt="image" src="https://github.com/user-attachments/assets/76c2513e-5cd8-4c54-8f75-51401a48d2f6" />
+
 
 
 
